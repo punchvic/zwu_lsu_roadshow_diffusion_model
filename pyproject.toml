@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lsu-diffusion-model"
+version = "0.1"
+dependencies = [
+    "matplotlib",
+    "numpy",
+]
+
+[tool.setuptools]
+py-modules = ["lsu_diffusion_model"]
